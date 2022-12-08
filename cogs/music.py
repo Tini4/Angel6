@@ -1,6 +1,15 @@
-import logging, asyncio, functools, math, random, sys, discord, yt_dlp, itertools
-from discord.ext import commands
+import asyncio
+import discord
+import functools
+import itertools
+import logging
+import math
+import random
+import sys
+import yt_dlp
+
 from async_timeout import timeout
+from discord.ext import commands
 from yt_dlp import utils
 
 utils.bug_reports_message = lambda: ''

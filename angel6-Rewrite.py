@@ -1,5 +1,13 @@
-import asyncio, psutil, time, datetime, random, sys, discord, os
+import asyncio
+import datetime
+import discord
+import os
+import psutil
+import random
+import sys
+import time
 from subprocess import run
+
 from discord import __version__ as d_version
 from discord.ext import commands
 from dotenv import load_dotenv
